@@ -1,10 +1,9 @@
 <html>
     <head>
-
+         <meta charset="ISO-8859-1"> 
         <script src='js/jquery.js' ></script>
         <script src='js/popper.js' ></script>
         <script src='js/bootstrap.min.js' ></script>
-
 
         <link rel='stylesheet' href='css/bootstrap.min.css'></link>
         <link rel='stylesheet' href='css/style.css'></link>
@@ -27,7 +26,6 @@
                       <a href="#SubSubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubSubMenu1">Subitem 3 c <i class="fa fa-caret-down"></i></a>
                       <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
                         <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 1</a>
-                        <a href="index.html" class="list-group-item" data-parent="#SubSubMenu1">Home</a>
                       </div>
                       <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 4 d</a>
                     </div>
@@ -36,39 +34,97 @@
                   </div>
                   <a href="#demo4" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 4</a>
                   <div class="collapse" id="demo4">
-                    <a href="index.html" class="list-group-item">Home</a>
+                    <a href="prototype.html" class="list-group-item">Prototype</a>
                     <a href="" class="list-group-item">Subitem 2</a>
                     <a href="" class="list-group-item">Subitem 3</a>
                   </div>
                    <a href="#demo5" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 5</a>
                     <div class="collapse" id="demo5">
-                    <a href="#" class="list-group-item">Subitem 1</a>
+                    <a href="#" class="list-group-item">Home</a>
                     <a href="" class="list-group-item">Subitem 2</a>
                     <a href="" class="list-group-item">Subitem 3</a>
                   </div>
                 </div>
               </div>
-        </div>
+              
+            </div>  
 
-<h3>CONTENT</h3>
-        </div>
-<div class='col-md-6 col-md-offset-3'>
-    <h3 id='page-content'></h3>
-    <ul id="pagination-demo" class="pagination-sm"></ul>
-<div>
-`       </div>
+          </div>  
+<br>
 
-        <script src='js/pag/jquery.twbsPagination.min.js' ></script>
-        <script>    
-        $(function(){
-            $('#pagination-demo').twbsPagination({
-                totalPages: 15,
-                visiblePages: 7,
-                onPageClick: function (event, page) {
-                    $('#page-content').text('Page ' + page);
-                }
-            });
-        });
-        </script>
-        </body>
-</html>              
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div id="imaginary_container"> 
+                <div class="input-group stylish-input-group">
+                    <input type="text" class="form-control"  placeholder="Search" >
+                    <span class="input-group-addon">
+                        <button  type="submit">
+                             <span class="glyphicon glyphicon-search"></span>
+                        </button>  
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class='row'>
+            <div class='col-md-5'>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class='col-md-5'>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+        </div>
+    </body>
+</html>
