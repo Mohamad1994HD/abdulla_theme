@@ -1,54 +1,65 @@
 <html>
     <head>
-
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" >
         <script src='js/jquery.js' ></script>
         <script src='js/popper.js' ></script>
         <script src='js/bootstrap.min.js' ></script>
 
         <link rel='stylesheet' href='css/bootstrap.min.css'></link>
-        <link rel='stylesheet' href='css/style.css'></link>
+        <link rel='stylesheet' href='css/MStyle.css'></link>
 
     </head>
 
     <body>
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-2">
-              
-              <div id="MainMenu">
-                <div class="list-group panel">
-                  <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Item 3</a>
-                  <div class="collapse" id="demo3">
-                    <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1">Subitem 1 <i class="fa fa-caret-down"></i></a>
-                    <div class="collapse list-group-submenu" id="SubMenu1">
-                      <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 1 a</a>
-                      <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 2 b</a>
-                      <a href="#SubSubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubSubMenu1">Subitem 3 c <i class="fa fa-caret-down"></i></a>
-                      <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
-                        <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 1</a>
-                      </div>
-                      <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 4 d</a>
-                    </div>
-                    <a href="javascript:;" class="list-group-item">Subitem 2</a>
-                    <a href="javascript:;" class="list-group-item">Subitem 3</a>
-                  </div>
-                  <a href="#demo4" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 4</a>
-                  <div class="collapse" id="demo4">
-                    <a href="prototype.html" class="list-group-item">Prototype</a>
-                    <a href="" class="list-group-item">Subitem 2</a>
-                    <a href="" class="list-group-item">Subitem 3</a>
-                  </div>
-                   <a href="#demo5" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 5</a>
-                    <div class="collapse" id="demo5">
-                    <a href="#" class="list-group-item">Home</a>
-                    <a href="" class="list-group-item">Subitem 2</a>
-                    <a href="" class="list-group-item">Subitem 3</a>
-                  </div>
-                </div>
-              </div>
-              
-            </div>  
-          </div>  
-        </div>
-    </body>
+
+
+    <div class="navigation">
+      <ul>
+        <li class="has-sub" id = "Menu1" > <a href="#">TABS</a>
+          <ul>
+            <li class="has-sub"> <a href="TAbs.html">Tabs</a>
+             
+            </li>
+            <li><a href="#">Submenu 1.2</a></li>
+          </ul>
+        </li>
+        <li class="has-sub" id = "Menu2" > <a href="#">Q&A/a>
+          <ul>
+            <li><a href="faq.html">Q&A</a></li>
+            <li><a href="#">Submenu 2.2</a></li>
+          </ul>
+        </li>
+        <li class="has-sub" id = "Menu3" > <a href="#">Menu 3</a>
+          <ul>
+            <li><a href="#">Submenu 3.1</a></li>
+            <li><a href="#">Submenu 3.2</a></li>
+          </ul>
+        </li>
+
+
+        <li class="has-sub" id = "Menu4" > <a href="#">Menu 4</a>
+             <ul>
+               <li class="has-sub"> <a href="#">Submenu 1.1</a>
+                 <ul>
+                  <li><a href="#">Submenu 1.1.1</a></li>
+             
+                </ul>
+              </li>
+              <li><a href="#">Submenu 1.2</a></li>
+            </ul>
+        </li>
+
+
+      </ul>
+</div>
+
+
+</body>
 </html>
+
+
+
+
+
+
