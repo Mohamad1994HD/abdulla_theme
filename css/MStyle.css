@@ -190,11 +190,11 @@
 
 #banner {
   
-  top: 0px;
-  left: 0px;
-  right: 0px;
   width: 80%;
-  height: 385px;
   z-index: -1;
 }
 
+.banner-img{
+    width:100%;
+    height:400px;
+}
