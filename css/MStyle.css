@@ -187,3 +187,14 @@
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
+
+#banner {
+  
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 80%;
+  height: 385px;
+  z-index: -1;
+}
+
